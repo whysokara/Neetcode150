@@ -30,7 +30,13 @@
 3. Count of subset sum
 4. Minimum subset sum diff
 5. Target sum
-6. # of subset & given difference
+6. Number of subset & given difference
 
 ## 0/1 Knapsack
 > Identification
+* Choice
+* Optimal (Largest, smallest, maximum, minimum)
+
+Once confirmed that it is DP problem, then apply recursion
+> Dp: Recursion => Memoization => Top-down
+> DP = Recursion + Storage(memoization)
