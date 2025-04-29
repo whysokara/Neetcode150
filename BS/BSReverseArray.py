@@ -1,4 +1,4 @@
-def binarySearch(arr,target):
+def binarySearchReverse(arr,target):
 
     start = 0
     end = len(arr) -1
@@ -9,12 +9,12 @@ def binarySearch(arr,target):
          if arr[mid] == target:
              return (mid)
          elif arr[mid] > target:
-            end = mid - 1
-         else:
             start = mid + 1
+         else:
+            end = mid - 1
     return -1
 
-arr = [1,2,3,4,5,6,7,8,9,10]
-target = 9
+arr = [20, 17, 15, 14, 13, 12, 10, 9, 8, 4]
+target = 12
 
-print(binarySearch(arr, target))
+print(binarySearchReverse(arr, target))
