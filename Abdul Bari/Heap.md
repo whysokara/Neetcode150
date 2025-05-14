@@ -28,48 +28,6 @@ insert new element in the end(leaf), then swap the new element with its parent a
 * we always delete the root element then the last leaft takes place of the root
 * now we compare the root with it's child, and whichever is greater we swap root with the element, provided root should be smaller than child, if not no need to swap
 
+### Heapify
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Identify HEAP questions
-* will have K in question
-* will have smallest/largest in question
-
-> if asked kth smallest then create max heap and vice versa
-
-> Min heap 
-``` python
-import heapq
-
-pq = []
-heapq.heappush(pq, 3)
-heapq.heappush(pq, 1)
-heapq.heappush(pq, 5)
-smallest = pq[0]
-```
-> Max heap
-``` python
-import heapq
-
-pq = []
-heapq.heappush(pq, -3)
-heapq.heappush(pq, -1)
-heapq.heappush(pq, -5)
-largest = -pq[0]
-
-```
+creation of heap
