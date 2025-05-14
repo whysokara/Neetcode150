@@ -1,3 +1,9 @@
+## Heap
+* if a node is at index i, then
+* left child is at 2*i
+* right child is at 2*1+1
+* parent child is at i// (floor)
+
 ### Identify HEAP questions
 * will have K in question
 * will have smallest/largest in question
